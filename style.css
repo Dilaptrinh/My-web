@@ -1,0 +1,342 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-content {
+  width: 117rem;
+  max-width: calc(100% - 4rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+.desc {
+  color: #767e7e;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+}
+.logo {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.title-2 {
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 5.6rem;
+  margin: 0;
+}
+
+header {
+  padding-top: 2.4rem;
+}
+.body-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  gap: 1rem;
+}
+.nav li {
+  list-style-type: none;
+}
+nav a {
+  padding: 0.7rem;
+}
+.btn-header {
+  margin-left: 2.4rem;
+  display: inline-block;
+  padding: 0 1.6rem;
+  min-width: 10.8rem;
+  line-height: 4.6rem;
+  color: #1ebfc1;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+}
+
+.nav a:hover {
+  color: rgb(107, 159, 204);
+  text-shadow: 0.1rem 0 0 currentColor;
+}
+a {
+  text-decoration: none;
+}
+.body-header .logo {
+  padding: 1.5rem 0;
+}
+.body-header .nav a {
+  color: #2f3a3b;
+  font-family: Poppins;
+  font-size: 1.6rem;
+}
+
+.hero {
+  display: flex;
+  padding-bottom: 3rem;
+}
+.hero .content {
+  margin-top: 15.8rem;
+  width: 50%;
+}
+.hero .content h1.title {
+  margin-top: 1.8rem;
+  margin-bottom: 0;
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 7.2rem;
+}
+.hero .content .first {
+  color: #767e7e;
+  margin-bottom: 0;
+  font-family: Poppins;
+  font-size: 1.4rem;
+}
+.hero .content .desc {
+  margin-bottom: 0;
+  margin-top: 4.6rem;
+  color: #9da6a5;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.2rem;
+}
+.hero .cta-group {
+  margin-top: 5.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.hero .cta-group .play-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5rem;
+  width: 6.2rem;
+  height: 6.2rem;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0px 2.2rem 5rem 0px rgba(0, 0, 0, 0.05);
+}
+
+.btn {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0 4.1rem;
+  min-width: 18.6rem;
+  line-height: 6.8rem;
+  border-radius: 14px;
+  background: #11dcdf;
+  box-shadow: 0px 1rem 5rem 0px rgba(0, 0, 0, 0.05);
+}
+
+.element {
+  margin-left: 7.1rem;
+  margin-top: 6.2rem;
+  width: 50%;
+  position: relative;
+}
+.element .img-hero {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  background-color: #d1feff;
+  border-radius: 15px;
+}
+.element .media-course {
+  flex-shrink: 0;
+  border-radius: 18px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  position: absolute;
+  top: 14.9rem;
+  left: -4rem;
+  width: 15.7rem;
+  height: 7.5rem;
+  border-radius: 18px;
+  background: #fefefd;
+}
+.element .media-course span {
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.hero .element .avatar span {
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.hero .element .avatar {
+  position: absolute;
+  width: 20.7rem;
+  height: 9rem;
+  top: 50rem;
+  left: 32.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #fefefd;
+}
+.hero .group-avatar {
+  display: flex;
+}
+.hero .group-avatar .ava {
+  margin-top: 0.8rem;
+  margin-left: -0.7rem;
+  width: 3.3rem;
+  height: 3.3rem;
+  border-radius: 50%;
+}
+.hero .group-avatar .ava:first-child {
+  margin-left: 0;
+}
+
+.feature {
+  margin-top: 5rem;
+  width: 90.6%;
+}
+
+.feature .title-2 {
+  display: inline-block;
+  padding: 1.8rem 0;
+  max-width: 57.7rem;
+}
+
+.feature .desc {
+  width: 59rem;
+}
+
+.feature .context-block {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.feature .context-block .class {
+  max-width: 22.3rem;
+}
+.feature .context-block .name-title {
+  margin-top: 2.5rem;
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.feature .context-block .item-desc {
+  margin-top: 1.6rem;
+  color: #9da6a5;
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+}
+
+.popular {
+  margin-top: 13rem;
+}
+.context-block {
+  display: flex;
+  margin-top: 8rem;
+  justify-content: space-between;
+}
+.popular .context-block .course-item {
+  width: 31.16%;
+  position: relative;
+}
+.popular .context-block .course-item img {
+  width: 100%;
+  border-radius: 15px;
+}
+.popular .course-item .info {
+  position: absolute;
+  top: 33rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  left: 2.4rem;
+  width: calc(100% - 4.8rem);
+  padding: 2.5rem;
+  height: 19.5rem;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 1.6rem 9rem 0 rgba(0, 0, 0, 0.05);
+}
+.popular .desc {
+  width: 52.5rem;
+}
+
+.popular .title-2 {
+  margin-top: 1.8rem;
+}
+.popular .row-top {
+  margin-top: 1.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+.popular .row-top a {
+  color: #1ebfc1;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+.popular .info .title {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.popular .info .cost {
+  color: #767e7e;
+  font-size: 1.6rem;
+}
+.popular .info .cost span {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.popular .info .demo {
+  color: #9da6a5;
+  font-size: 1.4rem;
+}
+
+.popular .info .date span {
+  color: #9da6a5;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.popular .info .date span:first-child {
+  margin-right: 3rem;
+}
